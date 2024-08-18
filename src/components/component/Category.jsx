@@ -1,4 +1,5 @@
-"use client"
+'use client'
+{/* eslint-disable react/no-unescaped-entities */}
 import { useState } from "react";
 import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@/components/ui/collapsible"
 import Link from "next/link"

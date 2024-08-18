@@ -1,3 +1,4 @@
+{/* eslint-disable react/no-unescaped-entities */}
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet"

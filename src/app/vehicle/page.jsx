@@ -1,3 +1,4 @@
+{/* eslint-disable react/no-unescaped-entities */}
 import React from 'react'
 import {Category} from '../../components/component/Category.jsx'
 import Header from '../header/page.jsx'
