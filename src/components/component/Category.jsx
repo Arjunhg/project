@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Lightbulb } from "lucide-react";
+import Image from "next/image";
 
 export function Category() {
 
@@ -74,7 +75,7 @@ export function Category() {
                 <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
                   <span className="sr-only">View</span>
                 </Link>
-                <img
+                <Image
                   src={vehicle.image}
                   alt={vehicle.name}
                   width={500}
@@ -101,7 +102,7 @@ export function Category() {
           <Collapsible className="group">
             <CollapsibleTrigger
               className="relative block h-[300px] overflow-hidden rounded-lg bg-muted/20 transition-all group-data-[state=open]:bg-muted/40">
-              <img
+              <Image
                 src="/c.jpg"
                 alt="Cars"
                 width={600}
@@ -119,7 +120,7 @@ export function Category() {
                   <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
                     <span className="sr-only">View</span>
                   </Link>
-                  <img
+                  <Image
                     src="/camry.jpg"
                     alt="Car 1"
                     width={500}
@@ -136,7 +137,7 @@ export function Category() {
                   <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
                     <span className="sr-only">View</span>
                   </Link>
-                  <img
+                  <Image
                     src="/civic.jpg"
                     alt="Car 2"
                     width={500}
@@ -153,7 +154,7 @@ export function Category() {
                   <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
                     <span className="sr-only">View</span>
                   </Link>
-                  <img
+                  <Image
                     src="/mustang.jpg"
                     alt="Car 3"
                     width={500}
@@ -171,7 +172,7 @@ export function Category() {
           <Collapsible className="group">
             <CollapsibleTrigger
               className="relative block h-[300px] overflow-hidden rounded-lg bg-muted/20 transition-all group-data-[state=open]:bg-muted/40">
-              <img
+              <Image
                 src="/nbike.jpg"
                 alt="Bikes"
                 width={600}
@@ -189,7 +190,7 @@ export function Category() {
                   <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
                     <span className="sr-only">View</span>
                   </Link>
-                  <img
+                  <Image
                     src="/levo.jpg"
                     alt="Bike 1"
                     width={500}
@@ -206,7 +207,7 @@ export function Category() {
                   <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
                     <span className="sr-only">View</span>
                   </Link>
-                  <img
+                  <Image
                     src="/domane.jpg"
                     alt="Bike 2"
                     width={500}
@@ -223,7 +224,7 @@ export function Category() {
                   <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
                     <span className="sr-only">View</span>
                   </Link>
-                  <img
+                  <Image
                     src="/cannon.jpg"
                     alt="Bike 3"
                     width={500}
@@ -241,7 +242,7 @@ export function Category() {
           <Collapsible className="group">
             <CollapsibleTrigger
               className="relative block h-[300px] overflow-hidden rounded-lg bg-muted/20 transition-all group-data-[state=open]:bg-muted/40">
-              <img
+              <Image
                 src="/v.jpg"
                 alt="Vans"
                 width={600}
@@ -259,7 +260,7 @@ export function Category() {
                   <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
                     <span className="sr-only">View</span>
                   </Link>
-                  <img
+                  <Image
                     src="/transit.jpg"
                     alt="Van 1"
                     width={500}
@@ -276,7 +277,7 @@ export function Category() {
                   <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
                     <span className="sr-only">View</span>
                   </Link>
-                  <img
+                  <Image
                     src="/sprinter.jpg"
                     alt="Van 2"
                     width={500}
@@ -293,7 +294,7 @@ export function Category() {
                   <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
                     <span className="sr-only">View</span>
                   </Link>
-                  <img
+                  <Image
                     src="/promaster.jpg"
                     alt="Van 3"
                     width={500}

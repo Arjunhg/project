@@ -4,6 +4,7 @@ import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
+import Image from "next/image"
 
 export default function Landing() {
   return (
@@ -46,9 +47,12 @@ export default function Landing() {
                   </Link>
                   
                 </nav>
-                <Button variant="secondary" className="w-full">
-                  Book Now
-                </Button>
+                <Link href='/vehicle'>
+                  <Button variant="secondary" className="w-full">
+                    Explore
+                  </Button>
+                </Link>
+                
               </div>
             </SheetContent>
           </Sheet>
@@ -82,7 +86,7 @@ export default function Landing() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               <Card>
-                <img
+                <Image
                   src="/compact.jpg"
                   width={300}
                   height={200}
@@ -102,7 +106,7 @@ export default function Landing() {
                 </CardContent>
               </Card>
               <Card>
-                <img
+                <Image
                   src="/suvv.jpg"
                   width={300}
                   height={200}
@@ -122,7 +126,7 @@ export default function Landing() {
                 </CardContent>
               </Card>
               <Card>
-                <img
+                <Image
                   src="/trucks.jpg"
                   width={300}
                   height={200}
@@ -142,7 +146,7 @@ export default function Landing() {
                 </CardContent>
               </Card>
               <Card>
-                <img
+                <Image
                   src="/motor.jpg"
                   width={300}
                   height={200}
@@ -179,7 +183,7 @@ export default function Landing() {
                 </Link>
               </div>
               <Card>
-                <img
+                <Image
                   src="/luxury.jpg"
                   width={400}
                   height={300}
@@ -201,7 +205,7 @@ export default function Landing() {
                 </CardContent>
               </Card>
               <Card>
-                <img
+                <Image
                   src="/lvan.jpg"
                   width={400}
                   height={300}
@@ -252,8 +256,8 @@ export default function Landing() {
                     </div>
                   </div>
                   <p className="mt-4 text-muted-foreground">
-                    "I had a great experience renting from Rent-a-Ride. The\n process was smooth, and the vehicle was in
-                    excellent\n condition. I would definitely use their services again."
+                    'I had a great experience renting from Rent-a-Ride. The process was smooth, and the vehicle was in
+                    excellent condition. I would definitely use their services again.'
                   </p>
                 </CardContent>
               </Card>
@@ -270,8 +274,8 @@ export default function Landing() {
                     </div>
                   </div>
                   <p className="mt-4 text-muted-foreground">
-                    "Rent-a-Ride made my trip so much easier. The vehicle was\n perfect for my needs, and the staff was
-                    incredibly\n helpful. I highly recommend their services."
+                    'Rent-a-Ride made my trip so much easier. The vehicle was perfect for my needs, and the staff was
+                    incredibly helpful. I highly recommend their services.'
                   </p>
                 </CardContent>
               </Card>
