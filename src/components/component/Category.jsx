@@ -94,7 +94,7 @@ export function Category() {
         ) : searchTerm && (
           <div className="text-center p-8 bg-red-100 rounded-lg">
             <h2 className="text-2xl font-bold text-red-800 mb-2">No Matches Found</h2>
-            <p className="text-red-600">We couldn't find any vehicles matching your search. Please try a different term.</p>
+            <p className="text-red-600">We couldn&apos;t find any vehicles matching your search. Please try a different term.</p>
           </div>
         )}
 

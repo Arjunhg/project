@@ -256,8 +256,8 @@ export default function Landing() {
                     </div>
                   </div>
                   <p className="mt-4 text-muted-foreground">
-                    'I had a great experience renting from Rent-a-Ride. The process was smooth, and the vehicle was in
-                    excellent condition. I would definitely use their services again.'
+                    I had a great experience renting from Rent-a-Ride. The process was smooth, and the vehicle was in
+                    excellent condition. I would definitely use their services again.
                   </p>
                 </CardContent>
               </Card>
@@ -274,8 +274,8 @@ export default function Landing() {
                     </div>
                   </div>
                   <p className="mt-4 text-muted-foreground">
-                    'Rent-a-Ride made my trip so much easier. The vehicle was perfect for my needs, and the staff was
-                    incredibly helpful. I highly recommend their services.'
+                    Rent-a-Ride made my trip so much easier. The vehicle was perfect for my needs, and the staff was
+                    incredibly helpful. I highly recommend their services.
                   </p>
                 </CardContent>
               </Card>
